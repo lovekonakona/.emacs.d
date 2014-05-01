@@ -151,8 +151,7 @@
     (set-keyboard-coding-system 'chinese-gbk)
     (set-clipboard-coding-system 'chinese-gbk)
     (set-buffer-file-coding-system 'chinese-gbk)
-    (modify-coding-system-alist 'process "*" 'chinese-gbk)
-    ))
+    (modify-coding-system-alist 'process "*" 'chinese-gbk)))
 
 (defun encode-utf8 ()
   (interactive)
