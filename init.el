@@ -47,7 +47,7 @@
       '((top . 0)
         (left . 0)
         (width . 155)
-        (height . 39)))
+        (height . 37)))
 
 
 (add-to-list 'load-path "~/.emacs.d/plugins/color-theme/")
@@ -220,3 +220,4 @@
 
 ;; open scratch file
 (find-file "~/.scratch.el")
+(kill-buffer "*scratch*")
